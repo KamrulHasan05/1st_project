@@ -113,7 +113,7 @@ header{
 .single{
     padding: 15px 2.2%;
     width: 29.7%;
-    border-right: 1px outset darkgray;
+    border-right: 1px outset #a9a9a9;
     float: left;
 }
 .single:first-child{
@@ -273,15 +273,20 @@ header{
 /*contact end*/
 /*footer start*/
 footer{
-	padding: 8px 0 18px;
-	background-color: #17191d;
+    padding: 8px 0 10px;
+    background-color: #17191d;
+}
+.f_left{
+	width: 61%;
+	float: left;
+
 }
 .f_menu{
-	width: 70%;
-	float: left;
+	margin-top: 6px;
+
 }
 .f_menu ul{
-	margin-top: 6px;
+	margin-top: 0px;
 	overflow: hidden;
 }
 .f_menu ul li{
@@ -306,35 +311,26 @@ footer{
 .f_menu ul li a:hover{
 	color: #0170BD;
 }
-.f_menu span{
+.f_left span{
     font-family: sans-serif;
     font-size: 12px;
     font-weight: 400;
-    color: white;
+    color: #fff;
     text-transform: capitalize;
     display: inline-block;
-    padding: 0px 60px;	
+    padding: 0px 65px;	
 }
 .f_right{
-	width: 30%;
-	float: right;
-}
-.f_img{
-	overflow: hidden;
+	width: 39%;
+	float: left;
+	display: block;
 }
 .f_right img{
-	width: 100%;
+	width: 36%;
+	display: inline-block;
+	padding: 0 6%;
 }
-.img_l{
-	padding: 20px 10px;
-	width: 40%;
-	float: left;
+.f_right img:first-child{
+	margin-bottom: 9px;
 }
-.img_2{
-    padding: 8px 10px;
-    width: 40%;
-	float: left;
-}
-
-
 /*footer end*/
